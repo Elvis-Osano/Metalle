@@ -7,11 +7,11 @@
 
 </script>
 
-<nav class="flex justify-start lg:justify-between items-start gap-4 lg:flex-row md:flex-row flex-col lg:items-center w-5/6 mx-auto lg:mt-16 mt-8"  >
+<nav class="flex justify-start lg:justify-between items-start gap-4 lg:flex-row md:flex-row flex-col lg:items-center lg:w-5/6 w-11/12 mx-auto lg:mt-16 mt-8"  >
   <a href="/">
   <div class="flex items-center justify-center gap-2">
 
-    <img src="f.svg" alt="Marigold logo" class="h-7 w-7 row-span-2">
+    <img src="/images/logo.svg" alt="Marigold logo" class="h-7 w-7 row-span-2">
  
   <div class="text-transparent uppercase flex flex-col bg-clip-text  bg-gradient-to-r from-[#ff7f50] to-[#ff7f50]/25">
      <h1 class="text-sm tracking-[1px]">Marigold</h1>
