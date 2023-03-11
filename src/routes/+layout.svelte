@@ -4,11 +4,13 @@
 	import '../styles/app.css';
 </script>
 
-
+<main class="relative">
 	<Nav/>
 
 
 
 	<slot />
+</main>
+	
 
 

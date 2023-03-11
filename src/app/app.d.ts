@@ -8,5 +8,6 @@ declare global {
 		// interface Platform {}
 	}
 }
+declare module '@lottiefiles/svelte-lottie-player';
+export { };
 
-export {};
