@@ -10,12 +10,12 @@ import type { Engine } from "tsparticles-engine";
     };
 
     let particlesInit = async (engine:Engine) => {
-       console.log(engine);
+       
         await loadFull(engine);
     };
 
 </script>
-<section class="flex justify-between w-full  top-0">
+<section class="flex justify-between w-full relative  top-0">
    
     <div class="text-transparent uppercase flex pl-5 lg:mt-28 mt-32 justify-center flex-col bg-clip-text  bg-gradient-to-r from-orange to-orange/25">
         
@@ -36,7 +36,7 @@ import type { Engine } from "tsparticles-engine";
 
 
 
-<div  class="absolute inset-0 lg:h-[110vh] h-0 z-[1]">
+<div id="tsparticles"  class="absolute inset-0  h-[110vh]z-[1]">
             <Particles  
     url="/JSON/particles.json"
     on:particlesLoaded="{onParticlesLoaded}"
