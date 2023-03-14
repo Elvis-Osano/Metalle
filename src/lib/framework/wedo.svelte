@@ -32,12 +32,12 @@
       }
     ];
   </script>
-<section class="bg-whitney  text-dark pt-20">
-    <div class="w-5/6 mx-auto flex flex-col gap-6 h-screen">
-         <h1 class="text-5xl w-5/6 font-serif mb-20">
+<section class="bg-whitney  text-dark py-20">
+    <div class="w-5/6 mx-auto flex flex-col gap-6 h-max">
+         <h1 class="lg:text-5xl text-3xl lg:w-5/6 w-full font-serif mb-20">
         We work in dedicated project teams, blending DesignOps, user research, UX design, UI and engineering.
     </h1>
-    <div class="grid grid-cols-4 gap-4">
+    <div class="grid lg:grid-cols-4 grid-cols-1 gap-4">
         {#each steps as step,index}
         
         <div class="flex flex-col gap-4 justify-center">

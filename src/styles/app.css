@@ -13,6 +13,7 @@ body{
    @apply bg-dark leading-6 ;
    direction: ltr;
    color: aliceblue;
+   overflow-x: hidden;
 }
 canvas {
    display: block;
