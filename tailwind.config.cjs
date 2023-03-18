@@ -10,7 +10,14 @@ module.exports = {
       "whitney":"#f9d6c2",
       "dark":"#151515"
       
-    }}
+    }
+  ,
+  fontFamily:{
+    "sirenia":["sirenia","sans-serif","arial"],
+    "verdana":["verdana","sans-serif","arial"],
+    "mont":["mont","sans-serif","arial"],
+  }
+  }
     ,
   },
   plugins: [],

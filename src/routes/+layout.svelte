@@ -1,6 +1,6 @@
 <script>
 	import { Nav } from '$components';
-	import { Footer } from '$framework';
+	import { Footer } from '$home';
 	import 'modern-normalize/modern-normalize.css';
 	import { onMount } from 'svelte';
 	import '../styles/app.css';
@@ -8,7 +8,7 @@
    onMount(() => {
     setTimeout(() => {
       ready = true;
-    }, 100);
+    }, 1000);
   });
 </script>
 {#if ready}
@@ -22,9 +22,10 @@
 </main>
 <Footer/>
 {:else}
-<div class="grid place-items-center h-screen">
-	<p class="text-3xl font-bold text-rose-700">Marigold</p>
+<div class="absolute inset-0 grid place-items-center">
+<img width="{100}" height="{100}" src="video/loader.gif" alt="load"/>
 </div>
+
 
 {/if}
 

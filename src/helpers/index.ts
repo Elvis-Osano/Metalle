@@ -1,4 +1,8 @@
 export const links = [    
+  {
+    href:"/",
+    text:"Home"
+  },
     {
     href:"/about",
     text:"About"
@@ -12,7 +16,7 @@ export const links = [
     text:"Lab"
   },
     {
-    href:"/blog",
+    href:"https://medium.com/",
     text:"Blog"
   },
     {

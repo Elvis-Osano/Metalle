@@ -1,6 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+   font-family: 'sirenia';
+   font-style: normal;
+   font-weight: 500;
+   src: url('/fonts/Floodfonts - Sirenia Regular.otf'); /* IE9 Compat Modes */
+ 
+}
+@font-face {
+   font-family: 'verdana';
+   font-style: normal;
+   font-weight: 500;
+   src: url('/fonts/verdana/verdana.ttf'); /* IE9 Compat Modes */
+ 
+}
+@font-face {
+   font-family: 'mont';
+   font-style: normal;
+   
+   src: url('/fonts/mont.ttf'); /* IE9 Compat Modes */
+ 
+}
 *{
    
    margin: 0;
@@ -12,8 +34,9 @@ body{
    
    @apply bg-dark leading-6 ;
    direction: ltr;
-   color: aliceblue;
+   color: #f0f8ff;
    overflow-x: hidden;
+   font-family: "mont";
 }
 canvas {
    display: block;
@@ -23,3 +46,50 @@ canvas {
 html{
    scroll-behavior: smooth;
 }
+
+
+ 
+
+ 
+ .nav a::before,
+ .nav a::after {
+   content: '';
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   transition: all .35s ease;
+   opacity: 0;
+ }
+ 
+ .nav a::before {
+   content: '';
+   right: 0;
+   top: 0;
+   border-top: 3px solid aliceblue;
+   border-right: 3px solid aliceblue;
+   transform: translate(-100%, 50%);
+ }
+ 
+ .nav a:after {
+   content: '';
+   left: 0;
+   bottom: 0;
+   border-bottom: 3px solid aliceblue;
+   border-left: 3px solid aliceblue;
+   transform: translate(100%, -50%)
+ }
+ 
+ .nav a:hover:before,
+ .nav a:hover:after{
+   transform: translate(0,0);
+   opacity: 1;
+ }
+ 
+ .nav a:hover {
+   color: aliceblue;
+ }
+ .name{
+   font-family: 'Abril Fatface', cursive;
+ }
+
+ 

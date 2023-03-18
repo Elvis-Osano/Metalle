@@ -18,7 +18,8 @@ const config = {
 		alias:{
 			$components:"src/lib/components",
 			$helpers:"src/helpers",
-			$framework:"src/lib/framework",
+			$home:"src/lib/framework/home",
+			$about:"src/lib/framework/about",
 		},
 		files:{
 			appTemplate:"src/app/app.html"
