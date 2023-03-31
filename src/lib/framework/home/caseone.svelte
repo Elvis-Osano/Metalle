@@ -27,7 +27,7 @@ let intersecting:any;
         transition={{ delay: 1.5, duration: 1 }}
         let:motion
         >
-        <a use:motion href="/work" class="border border-whitney text-orange p-2 lg:w-4/12 w-6/12">Get To Know Us</a>
+        <a use:motion href="/case/police" class="border border-orange hover:bg-orange hover:text-alice text-orange p-2 lg:w-4/12 w-6/12">View Case Study</a>
     </Motion>
     </div>
     <div class="absolute flex right-20 bottom-10 top-10 justify-end">

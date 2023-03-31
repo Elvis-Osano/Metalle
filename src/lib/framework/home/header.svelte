@@ -14,14 +14,14 @@ import type { Engine } from "tsparticles-engine";
         
     };
 
-    let particlesInit = async (engine:Engine) => {
+    let particlesInit = async (engine:Engine) => { 
        
         await loadFull(engine);
     };
 
 </script>
 <svelte:window bind:innerHeight/>
-<section  class="flex justify-between lg:h-max h-[70vh]  w-full relative right-0 top-0">
+<section  class="flex justify-between lg:h-max h-[70vh] lg:min-h-screen  w-full relative right-0 top-0">
     
    
     <div class="flex flex-col  justify-end lg:pl-10 pl-5  pb-14 mt-32 text-whitney uppercase">
@@ -30,8 +30,8 @@ import type { Engine } from "tsparticles-engine";
         transition={{ delay: 0.5, duration: 2, type: "spring", bounce: 0.5 }}
         let:motion
         >  <div use:motion class="flex items-center gap-4">
-          <span class="w-0 hidden lg:block h-[1px] bg-orange lg:w-16"></span>
-          <h2 class=" lg:text-xl  text-orange">Transform your business today</h2>
+          <span class="w-0 hidden lg:block h-[1px] bg-orange lg:w-8"></span>
+          <h2 class="   text-orange">Transform your business today</h2>
         </div>
     </Motion>
 
@@ -61,7 +61,7 @@ import type { Engine } from "tsparticles-engine";
 
 
 
-<div id="tsparticles"  class="{`absolute inset-0   h-${innerHeight} z-[1]`}">
+<div id="tsparticles"  class="{`absolute inset-0 cursor-crosshair  h-${innerHeight} z-[1]`}" >
             <Particles  
     url="/JSON/particles.json"
     on:particlesLoaded="{onParticlesLoaded}"

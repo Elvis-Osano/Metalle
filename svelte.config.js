@@ -21,6 +21,7 @@ const config = {
 			$helpers:"src/helpers",
 			$home:"src/lib/framework/home",
 			$about:"src/lib/framework/about",
+			$case:"src/lib/framework/case",
 		},
 		files:{
 			appTemplate:"src/app/app.html"

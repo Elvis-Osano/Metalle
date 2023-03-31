@@ -13,4 +13,5 @@
 <CaseOne />
 <CaseTwo />
 <CaseThree />
-<CaseOne />
+<!-- <CaseOne /> -->
+<!-- <Founders/> -->

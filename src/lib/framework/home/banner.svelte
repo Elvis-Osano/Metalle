@@ -29,7 +29,7 @@ animate={{  y: 0, opacity: 1 }}
 transition={{ delay: 1, duration: 1 }}
 let:motion
 >
-    <p use:motion class=" text-left lg:text-5xl  font-mont text-2xl  mb-20">At our software company, we continue a design tradition that enhances human potential through technology. By applying a structured understanding of the mind, we develop purposeful product strategies and craft beautiful user experiences that delight our customers.</p>
+    <p use:motion class=" text-left lg:text-4xl w-5/6 leading-8  font-serif text-2xl  mb-20">This blend is a natural continuation of a design tradition that elevates human potential. With a structured understanding of the mind, we map purposeful product strategies and create aesthetic experiences.</p>
   </Motion>
   <Motion initial={{ y: 200, opacity: 0 }}
 animate={{  y: 0, opacity: 1 }} 

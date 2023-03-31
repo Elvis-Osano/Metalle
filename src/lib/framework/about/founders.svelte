@@ -4,17 +4,17 @@
     import IoLogoTwitter from 'svelte-icons/io/IoLogoTwitter.svelte';
 </script>
 <h1 class="text-4xl w-11/12 mx-auto tracking-tighter font-mont text-center m-10">Meet The Founders</h1>
-<section class="bg-dark grid grid-cols-2 grid-rows-2 min-h-screen w-11/12 mx-auto">
+<section id="about" class="bg-dark grid grid-cols-2 grid-rows-2 min-h-screen w-11/12 mx-auto">
 
    
     <div class="flex flex-col mt-14 mx-10 gap-8">
         <div>
             <h1 class="text-7xl name text-whitney">Elvis Osano</h1>
-            <small class="text-[#666666]">Founder</small>
+            <small class="text-grey">Founder</small>
         </div>
         <div class="flex gap-4">
             <span class="w-[2px] bg-gold h-10"></span> 
-            <p class="text-[#666666] leading-8">
+            <p class="text-grey leading-8">
                 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.
                 As pragmatists we’re agile in discovering opportunities to improve people’s experiences. It is as much about the little details in a design system, as it is about contributing to the evolution of the field of design.
         </p>
@@ -55,7 +55,7 @@
     <div class="flex flex-col mt-20 mx-9 gap-8">
         <div>
             <h1 class="text-7xl name text-whitney">Dan Kipchirchir</h1>
-            <small class="text-[#666666]">Co-Founder</small>
+            <small class="text-grey">Co-Founder</small>
         </div>
         <div class="flex gap-4">
             <span class="w-[2px] bg-gold h-10"></span> 

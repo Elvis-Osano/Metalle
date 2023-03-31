@@ -1,13 +1,17 @@
 <script></script>
-<section class="bg-gradient-to-t from-gray-600  to-transparent py-20 text-whitney">
+<section class="bg-[#000000]   text-whitney">
     <div class="container mx-auto grid lg:grid-cols-2 grid-cols-1 lg:gap-8 items-center">
         <div class="text-center lg:text-left">
             <h1 class="text-6xl md:text-7xl lg:text-8xl font-sirenia capitalize mt-32 leading-none ">Marigold Softwares</h1>
             <h2 class="text-2xl md:text-3xl lg:text-5xl font-verdana mt-12 leading-tight">Transforming Ideas Into Reality</h2>
           </div>
           
-          <div class="w-full h-full">
-            <img src="images/flower.png" alt="Marigold flower" class="object-contain w-full h-full">
+          <div class="w-full relative h-full">
+            <div class="p-5">
+              <img src="images/flower4.jpg" loading="lazy" alt="Marigold flower" class="object-contain w-full h-full">
+            </div>
+            
+            <div class="absolute inset-0 bg-gradient-radial from-transparent via-black/50 to-black"></div>
           </div>
         </div>
         <div class="container mx-auto grid lg:grid-cols-3 grid-cols-1 lg:pl-0 pl-5 gap-8 mt-20">

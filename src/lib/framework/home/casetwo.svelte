@@ -31,7 +31,7 @@ let intersecting:any;
       transition={{ delay: 1.5, duration: 1 }}
       let:motion
       >
-      <a use:motion href="/work" class="inline-block py-3 px-8 border border-orange text-orange font-bold hover:bg-orange hover:text-white transition duration-300 ease-in-out">
+      <a use:motion href="/work" class="inline-block py-3 px-8 border border-bluu text-bluu font-bold hover:bg-bluu hover:text-white transition duration-300 ease-in-out">
         View Case Study
       </a>
     </Motion>
