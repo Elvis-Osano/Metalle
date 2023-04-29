@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Home Of Heroes</title>
+	<title>BloomByte</title>
 </svelte:head>
 <!-- <Hello/> -->
 <Header />

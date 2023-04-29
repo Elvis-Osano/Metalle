@@ -5,13 +5,14 @@ module.exports = {
     extend: {colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'gold': '#daa520',
-      "orange":"#ff7f50",
+      'gold': '#D6AD60',
+      "tan":"#B68D40",
+      "orange":"#E76D57",
       // "whitney":"#f9d6c2",
       "whitney":"#f0f8ff",
-      "dark":"#151515",
+      "dark":"#201315",
       "grey":"#666666",
-      "alice":"#f0f8ff",
+      "alice":"#F4EBD0",
       "pinku":"#ff1493",
       "bluu":"#1C1CF0"
       

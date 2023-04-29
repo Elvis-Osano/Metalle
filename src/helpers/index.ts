@@ -8,22 +8,16 @@ export const links = [
     text:"About"
   },
     {
-    href:"/work",
-    text:"Work"
+    href:"/about",
+    text:"Products"
   },
-    {
-    href:"/lab",
-    text:"Lab"
-  },
+  
     {
     href:"https://medium.com/",
     text:"Blog"
   },
-    {
-    href:"/jobs",
-    text:"Jobs"
-  }
-  ,
+   
+  
     {
     href:"/contact",
     text:"Contact"

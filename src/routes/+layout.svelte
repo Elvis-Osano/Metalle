@@ -1,14 +1,14 @@
 <script>
-	import { Nav } from '$components';
-	import { Footer } from '$home';
+	import { Footer, Nav } from '$components';
+
 	import 'modern-normalize/modern-normalize.css';
 	import { onMount } from 'svelte';
 	import '../styles/app.css';
 	let ready=false;
    onMount(() => {
-    setTimeout(() => {
+    
       ready = true;
-    }, 1000);
+    
   });
 </script>
 {#if ready}

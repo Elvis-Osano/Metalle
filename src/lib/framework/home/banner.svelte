@@ -22,7 +22,7 @@ animate={{  y: 0, opacity: 1 }}
 transition={{ delay: 0.5, duration: 1 }}
 let:motion
 >
-    <h1 use:motion  class="font-sirenia  text-5xl mb-20">We are <span class="text-orange/50">developers</span>  & cognitive <span class="text-orange/50">scientists</span> .</h1>
+    <h1 use:motion  class="font-sirenia  text-5xl mb-20">We are <span class="color">developers</span>  & cognitive <span class="color">scientists</span> .</h1>
   </Motion>
   <Motion initial={{ y: 200, opacity: 0 }}
 animate={{  y: 0, opacity: 1 }} 
