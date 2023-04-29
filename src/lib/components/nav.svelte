@@ -40,7 +40,7 @@
 			</div> -->
 		</a>
 		{#if innerWidth < 500}
-			<ul class="flex gap-4 text-whitney">
+			<ul class="flex gap-4 text-gold">
 				<li>About</li>
 				<button
 					class="border-b border-white"
@@ -53,7 +53,7 @@
 		{/if}
 
 		{#if shownav}
-			<div
+			<!-- <div
 				class="bg-whitney h-max absolute inset-0"
 				style="background-image: url('images/flower.png');background-size: cover;"
 			>
@@ -74,7 +74,7 @@
 					{/each}
 				</ul>
 				<div class="bg-dark/75 absolute inset-0 z-[1]" />
-			</div>
+			</div> -->
 
 			<!-- content here -->
 		{/if}

@@ -35,11 +35,11 @@
 }
 body{
    
-   @apply bg-dark leading-6  ;
+   @apply bg-dark leading-6   ;
    direction: ltr;
    color: #f0f8ff;
    overflow-x: hidden;
-   background-image: url("images/bg.png");
+  
 
    font-family: "mont";
 }

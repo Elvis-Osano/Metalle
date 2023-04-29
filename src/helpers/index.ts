@@ -4,11 +4,11 @@ export const links = [
     text:"Home"
   },
     {
-    href:"/about",
+    href:"/",
     text:"About"
   },
     {
-    href:"/about",
+    href:"/",
     text:"Products"
   },
   
@@ -19,7 +19,7 @@ export const links = [
    
   
     {
-    href:"/contact",
+    href:"/",
     text:"Contact"
   }
   

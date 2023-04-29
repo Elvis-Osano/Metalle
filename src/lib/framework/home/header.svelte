@@ -1,23 +1,16 @@
 <script lang="ts">
 	import { Motion } from 'svelte-motion';
 	// import Particles from "svelte-particles";
-	import { loadFull } from 'tsparticles';
-	import type { Engine } from 'tsparticles-engine';
+
 	let innerHeight: number;
-
-	let onParticlesLoaded = (event: any) => {
-		const particlesContainer = event.detail.particles;
-	};
-
-	let particlesInit = async (engine: Engine) => {
-		await loadFull(engine);
-	};
 </script>
 
 <!-- //Loop Scrolling -->
 <svelte:window bind:innerHeight />
 <section class="flex  lg:h-max h-[70vh] lg:min-h-screen w-full  mx-auto  relative right-0 top-0">
-	<div class="flex flex-col  justify-end pb-20 w-5/6 pl-5 mx-auto text-whitney uppercase">
+	<div
+		class="flex flex-col  lg:justify-end justify-center lg:pb-20 lg:w-5/6 w-11/12  pl-5 mx-auto text-whitney uppercase"
+	>
 		<Motion
 			initial={{ y: -70, opacity: 0 }}
 			animate={{ y: 0, opacity: 1 }}
@@ -31,7 +24,7 @@
 					transition={{ duration: 1, delay: 1 }}
 					let:motion
 				>
-					<span use:motion class="w-0 hidden lg:block h-[1px] bg-[#E76D57] lg:w-8" />
+					<span use:motion class="w-8 block lg:block h-[1px] bg-[#E76D57] lg:w-8" />
 				</Motion>
 				<h2 class="text-[#E76D57]">Keep Calm</h2>
 			</div>
@@ -59,22 +52,14 @@
 		let:motion
 	>
 		<div
-			class="lg:w-6/12 absolute right-0 z-[-1]  flex lg:items-end items-center justify-end  lg:h-max w-full overflow-hidden"
+			class="lg:w-6/12 absolute w-11/12 h-screen  right-0 z-[-1]  flex lg:items-end items-end justify-end  lg:h-max  overflow-hidden"
 		>
 			<img
 				use:motion
 				src="/images/big.png"
 				alt="Marigold logo"
-				class=" lg:h-full h-11/12 w-full"
+				class=" lg:h-full h-6/12 lg:w-full "
 			/>
 		</div>
 	</Motion>
-
-	<!-- <div id="tsparticles"  class="{`absolute inset-0 cursor-crosshair  h-${innerHeight} z-[1]`}" >
-            <Particles  
-    url="/JSON/particles.json"
-    on:particlesLoaded="{onParticlesLoaded}"
-    particlesInit="{particlesInit}"
-/>  
-        </div> -->
 </section>

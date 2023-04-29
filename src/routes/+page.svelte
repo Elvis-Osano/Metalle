@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { Banner, CaseOne, CaseThree, CaseTwo, Header, Lab, Wedo } from '$home';
+	import { Header } from '$home';
+
+	// import { Banner, CaseOne, CaseThree, CaseTwo, Header, Lab, Wedo } from '$home';
 </script>
 
 <svelte:head>
@@ -7,11 +9,11 @@
 </svelte:head>
 <!-- <Hello/> -->
 <Header />
-<Lab />
+<!-- <Lab />
 <Banner />
 <Wedo />
 <CaseOne />
 <CaseTwo />
-<CaseThree />
+<CaseThree /> -->
 <!-- <CaseOne /> -->
 <!-- <Founders/> -->
