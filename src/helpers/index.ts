@@ -1,45 +1,45 @@
-export const links = [    
+export const links = [
   {
-    href:"/",
-    text:"Home"
+    href: "/",
+    text: "Home"
   },
-    {
-    href:"/",
-    text:"About"
+  {
+    href: "/about",
+    text: "About"
   },
-    {
-    href:"/",
-    text:"Products"
+  {
+    href: "/",
+    text: "Products"
   },
-  
-    {
-    href:"https://medium.com/",
-    text:"Blog"
+
+  {
+    href: "https://medium.com/",
+    text: "Blog"
   },
-   
-  
-    {
-    href:"/",
-    text:"Contact"
+
+
+  {
+    href: "/contact",
+    text: "Contact"
   }
-  
-  ];
 
- export let contrib:string[]=["hello",
+];
 
-   "UX Design",
+export let contrib: string[] = ["hello",
 
-"Responsive Web Development",
+  "UX Design",
 
-"Software Application Architecture",
+  "Responsive Web Development",
 
-"User Research",
+  "Software Application Architecture",
 
-"OEM Software Development",
+  "User Research",
 
-"Information Architecture",
+  "OEM Software Development",
 
-"Quality Assurance",
+  "Information Architecture",
 
-"UI Design"
+  "Quality Assurance",
+
+  "UI Design"
 ]

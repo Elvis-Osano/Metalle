@@ -1,15 +1,15 @@
 <script></script>
 
-<section class="bg-[#000000]  h-max pb-20 pt-10  text-whitney">
+<section class="bg-dark/75 h-max pb-20 pt-10  text-whitney">
 	<div class="container mx-auto grid lg:grid-cols-3 grid-cols-1 lg:pl-0 pl-5 gap-8 mt-20">
 		<div class="flex flex-col lg:order-first order-last">
 			<div class="flex items-center gap-2">
 				<a href="/" class="flex items-center gap-2">
-					<img src="/images/logo3.png" alt="Marigold logo" class="h-10 w-max" />
-					<!-- <div class="text-[#ff7f50] font-sirenia">
-						<h1 class="text-sm font-bold uppercase tracking-[1px]">BloomByte</h1>
-						<p class="text-xs text-gold font-semibold">Softwares</p>
-					</div> -->
+					<img src="/images/logo.png" alt="Marigold logo" class="h-10 w-max" />
+					<div class="text-[#ff7f50] font-sirenia">
+						<h1 class="text-sm font-bold uppercase tracking-[1px]">Metalle</h1>
+						<p class="text-xs text-gold font-semibold">Softwares LLC</p>
+					</div>
 				</a>
 			</div>
 			<p class="mt-6">

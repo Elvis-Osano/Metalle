@@ -3,7 +3,9 @@
 
 	import 'modern-normalize/modern-normalize.css';
 	import { onMount } from 'svelte';
+
 	import '../styles/app.css';
+	import Footer from '$components/footer.svelte';
 	let ready = false;
 	onMount(() => {
 		ready = true;
@@ -15,6 +17,7 @@
 		<Nav />
 
 		<slot />
+		<Footer />
 	</main>
 	<!-- <Footer/> -->
 {:else}

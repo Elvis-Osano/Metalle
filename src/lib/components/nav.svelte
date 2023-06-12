@@ -32,12 +32,12 @@
 			? 'bg-whitney shadow-xl text-black top-0'
 			: 'bg-transparent lg:top-16'}"
 	>
-		<a href="/" class="flex items-center gap-2">
-			<img src="/images/logo3.png" alt="Marigold logo" class="h-10 w-max" />
-			<!-- <div class="text-[#ff7f50] font-sirenia">
-				<h1 class="text-sm font-bold uppercase tracking-[1px]">BloomByte</h1>
-				<p class="text-xs text-gold font-semibold">Softwares</p>
-			</div> -->
+		<a href="/" class="flex items-center gap-2 ">
+			<img src="/images/logo.png" alt="Marigold logo" class="h-16 w-max" />
+			<div class="text-[#ff7f50] ">
+				<h1 class="text-sm font-bold font-sirenia uppercase  tracking-[4px]">Metalle</h1>
+				<p class="text-xs  text-gold font-semibold font-mont">Softwares LLC</p>
+			</div>
 		</a>
 		{#if innerWidth < 500}
 			<ul class="flex gap-4 text-gold">
@@ -53,7 +53,7 @@
 		{/if}
 
 		{#if shownav}
-			<!-- <div
+			<div
 				class="bg-whitney h-max absolute inset-0"
 				style="background-image: url('images/flower.png');background-size: cover;"
 			>
@@ -74,7 +74,7 @@
 					{/each}
 				</ul>
 				<div class="bg-dark/75 absolute inset-0 z-[1]" />
-			</div> -->
+			</div>
 
 			<!-- content here -->
 		{/if}

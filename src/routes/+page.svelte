@@ -1,19 +1,16 @@
 <script lang="ts">
-	import { Header } from '$home';
-
-	// import { Banner, CaseOne, CaseThree, CaseTwo, Header, Lab, Wedo } from '$home';
+	import { Banner, CaseOne, CaseThree, CaseTwo, Header, Lab, Wedo } from '$home';
 </script>
 
 <svelte:head>
-	<title>BloomByte</title>
+	<title>Metalle</title>
 </svelte:head>
 <!-- <Hello/> -->
 <Header />
-<!-- <Lab />
+<Lab />
 <Banner />
 <Wedo />
 <CaseOne />
 <CaseTwo />
-<CaseThree /> -->
-<!-- <CaseOne /> -->
-<!-- <Founders/> -->
+<CaseThree />
+<CaseOne />
