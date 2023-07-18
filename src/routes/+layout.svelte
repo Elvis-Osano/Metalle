@@ -4,7 +4,6 @@
 	import 'modern-normalize/modern-normalize.css';
 	import { onMount } from 'svelte';
 
-	import PopupMenu from '$components/menu/popup-menu.svelte';
 	import Footer from '$components/footer.svelte';
 	import '../styles/app.css';
 
