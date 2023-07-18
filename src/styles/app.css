@@ -3,65 +3,58 @@
 @tailwind utilities;
 
 @font-face {
-   font-family: 'sirenia';
-   font-style: normal;
-   font-weight: 500;
-   src: url('/fonts/Floodfonts - Sirenia Regular.otf'); /* IE9 Compat Modes */
- 
+	font-family: 'sirenia';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/Floodfonts - Sirenia Regular.otf'); /* IE9 Compat Modes */
 }
 @font-face {
-   font-family: 'verdana';
-   font-style: normal;
-   font-weight: 500;
-   src: url('/fonts/verdana/verdana.ttf'); /* IE9 Compat Modes */
- 
+	font-family: 'verdana';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/verdana/verdana.ttf'); /* IE9 Compat Modes */
 }
 @font-face {
-   font-family: 'mont';
-   font-style: normal;
-   
-   src: url('/fonts/mont.ttf'); /* IE9 Compat Modes */
- 
-}
-.color{
-  @apply bg-clip-text text-transparent bg-gradient-to-l from-tan to-gold;
-}
-*{
-   
-   margin: 0;
-   padding:0;
-   box-sizing: border-box;
+	font-family: 'mont';
+	font-style: normal;
 
+	src: url('/fonts/mont.ttf'); /* IE9 Compat Modes */
 }
-body{
-   
-   @apply bg-dark leading-6   ;
-   direction: ltr;
-   color: #f0f8ff;
-   overflow-x: hidden;
-  
+.bg_color {
+	@apply bg-gradient-to-l from-tan to-gold;
+}
+.color {
+	@apply bg-clip-text text-transparent bg-gradient-to-l from-tan to-gold;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	@apply bg-dark leading-6;
+	direction: ltr;
+	color: #f0f8ff;
+	overflow-x: hidden;
 
-   font-family: "mont";
+	font-family: 'mont';
 }
 canvas {
-   display: block;
-  
- }
- svg{
-   display: inline;
-   margin: 0;
-   padding: 0;
- }
-html{
-   scroll-behavior: smooth;
+	display: block;
+}
+svg {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
 }
 
 .navlink:hover .dot {
-  @apply block transition-all duration-1000 opacity-100;
-
+	@apply block transition-all duration-1000 opacity-100;
 }
 video {
-
-  overflow-clip-margin: content-box;
-  overflow: clip;
+	overflow-clip-margin: content-box;
+	overflow: clip;
 }

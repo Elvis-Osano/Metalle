@@ -1,45 +1,50 @@
-export const links = [
-  {
-    href: "/",
-    text: "Home"
-  },
-  {
-    href: "/",
-    text: "About"
-  },
-  {
-    href: "/",
-    text: "Products"
-  },
+export type menuListType = {
+	text: string;
+	href: string;
+	icon?: any;
+};
 
-  {
-    href: "https://medium.com/",
-    text: "Blog"
-  },
+export const links: menuListType[] = [
+	{
+		href: '/',
+		text: 'Home'
+	},
+	{
+		href: '/about',
+		text: 'About'
+	},
+	{
+		href: '/',
+		text: 'Products'
+	},
 
+	{
+		href: 'https://medium.com/',
+		text: 'Blog'
+	},
 
-  {
-    href: "/",
-    text: "Contact"
-  }
-
+	{
+		href: '/contact',
+		text: 'Contact'
+	}
 ];
 
-export let contrib: string[] = ["hello",
+export let contrib: string[] = [
+	'hello',
 
-  "UX Design",
+	'UX Design',
 
-  "Responsive Web Development",
+	'Responsive Web Development',
 
-  "Software Application Architecture",
+	'Software Application Architecture',
 
-  "User Research",
+	'User Research',
 
-  "OEM Software Development",
+	'OEM Software Development',
 
-  "Information Architecture",
+	'Information Architecture',
 
-  "Quality Assurance",
+	'Quality Assurance',
 
-  "UI Design"
-]
+	'UI Design'
+];

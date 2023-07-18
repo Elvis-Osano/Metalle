@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Metalle</title>
+	<title>Metalle Software LLC</title>
 </svelte:head>
 <!-- <Hello/> -->
 <Header />

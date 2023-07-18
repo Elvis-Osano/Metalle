@@ -1,6 +1,9 @@
-import { writable } from "svelte/store";
-const navScroll=writable({
-    current:0,
-    prev:0
-})
+import { writable } from 'svelte/store';
+const navScroll = writable({
+	current: 0,
+	prev: 0
+});
+
 export default navScroll;
+
+export const humbuggerState = writable(false);

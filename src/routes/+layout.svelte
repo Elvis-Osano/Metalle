@@ -3,8 +3,10 @@
 
 	import 'modern-normalize/modern-normalize.css';
 	import { onMount } from 'svelte';
-	import '../styles/app.css';
+
 	import Footer from '$components/footer.svelte';
+	import '../styles/app.css';
+
 	let ready = false;
 	onMount(() => {
 		ready = true;
@@ -14,7 +16,6 @@
 {#if ready}
 	<main class="relative h-max">
 		<Nav />
-
 		<slot />
 		<Footer />
 	</main>
