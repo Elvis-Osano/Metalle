@@ -4,7 +4,7 @@ export const links = [
     text: "Home"
   },
   {
-    href: "/about",
+    href: "/",
     text: "About"
   },
   {
@@ -19,7 +19,7 @@ export const links = [
 
 
   {
-    href: "/contact",
+    href: "/",
     text: "Contact"
   }
 

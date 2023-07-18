@@ -3,7 +3,6 @@
 
 	import 'modern-normalize/modern-normalize.css';
 	import { onMount } from 'svelte';
-
 	import '../styles/app.css';
 	import Footer from '$components/footer.svelte';
 	let ready = false;

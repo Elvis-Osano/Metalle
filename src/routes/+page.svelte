@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Banner, CaseOne, CaseThree, CaseTwo, Header, Lab, Wedo } from '$home';
+	import { Lab, Banner, Wedo, CaseOne, CaseTwo, CaseThree, Header } from '$home';
 </script>
 
 <svelte:head>
