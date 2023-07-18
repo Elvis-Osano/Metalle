@@ -39,7 +39,5 @@
 		"modern-normalize": "^1.1.0",
 		"svelte-icons": "^2.1.0",
 		"svelte-mapbox-gl": "^0.2.2"
-		
-		
 	}
 }
