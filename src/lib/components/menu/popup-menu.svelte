@@ -20,7 +20,7 @@
 	<Motion variants={modalVariant} animate="visible" initial="hidden" let:motion>
 		<div
 			use:motion
-			class="absolute top-0 left-0 w-[100%] h-[100%] bg-[#ffffffff] z-[10] p-[10px] md:hidden pt-[100px]"
+			class="absolute top-0 left-0 w-[100%] h-[100%] bg-whitney z-[10] p-[10px] md:hidden pt-[100px]"
 		>
 			<MenuItems {links} bind:shownav />
 		</div>

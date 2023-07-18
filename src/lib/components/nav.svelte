@@ -28,8 +28,8 @@
 
 <svelte:window bind:scrollY={scroll} bind:innerWidth />
 
-<div class="absolute w-[100%]">
-	<div class="w-[70%] relative h-[100vh]">
+<div class="absolute w-[100%] h-[100vh]">
+	<div class="w-[70%] fixed z-[100] h-[100%]">
 		<!-- <Humbugger bind:shownav /> -->
 		<PopupMenu bind:shownav />
 	</div>
@@ -38,7 +38,7 @@
 {#if direction}
 	<nav
 		transition:fly={{ y: -50, delay: 300, duration: 1000 }}
-		class="flex items-center z-10 fixed justify-between lg:items-center px-4 md:px-8 lg:px-32 w-full mx-auto py-6 lg:py-5 transition-all {scroll >
+		class="flex items-center z-[100] fixed justify-between lg:items-center px-4 md:px-8 lg:px-32 w-full mx-auto py-6 lg:py-5 transition-all {scroll >
 		50
 			? 'bg-whitney shadow-xl text-black top-0'
 			: 'bg-transparent lg:top-16'}"

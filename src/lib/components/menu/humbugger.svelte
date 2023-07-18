@@ -7,7 +7,7 @@
 
 <div
 	on:click={toggleUpdate}
-	class={`flex flex-col gap-2 absolute top-4 w-[30px] md:hidden z-[100] ${
+	class={`flex flex-col gap-2 absolute top-10 w-[30px] md:hidden z-[100] ${
 		shownav ? 'right-2' : 'right-2'
 	}`}
 	on:keydown
